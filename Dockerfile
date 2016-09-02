@@ -46,7 +46,7 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 RUN r2 -V
 
 
-
 EXPOSE 22
+EXPOSE 9090
 CMD ["/run.sh"]
 
